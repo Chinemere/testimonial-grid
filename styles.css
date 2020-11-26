@@ -6,7 +6,6 @@
 
 body{
     background-color:   hsl(0, 0%, 81%) ;
-    /* padding: 10px; */
 }
 
 /* Profiles */
@@ -92,10 +91,9 @@ main{
     display: grid;
     grid-template-columns: 50% 20% 25%;
     grid-template-rows: auto 1fr ;
-    margin:50px;
+    margin:10px;
     row-gap: 30px;
     column-gap: 30px;
-    /* padding: 50px; */
 }
 .daniel{
     background-color: hsl(263, 55%, 52%);
@@ -182,7 +180,6 @@ main{
 /* media queries */
 @media only screen and (max-width:768px){
     main{
-       
         display: flex;
         flex-direction: column;
     }
@@ -225,15 +222,11 @@ main{
 @media only screen and (max-width:425px){
 
     main{
-        margin:5px;
         display: flex;
         flex-direction: column;
     }
    
     .jeanette-patrick{
-        /* display: flex;
-        flex-direction: column;
-        margin-bottom: 30px; */
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: auto ;
